@@ -1,3 +1,8 @@
+
+
+
+
+// Import du css
 import '../styles/Banner.css'
 
 function Banner({children}) { 

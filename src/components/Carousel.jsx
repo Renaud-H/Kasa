@@ -2,4 +2,5 @@ import React from 'react'
 
 
 
-// import "../styles/ .css"
+// Import du css
+import '../styles/Carousel.css'

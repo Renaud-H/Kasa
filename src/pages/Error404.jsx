@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import Navbar from "../layouts/Navbar"
 import Footer from "../layouts/Footer"
 
+// Import du css
 import "../styles/Error404.css"
 
 function Error404() {
