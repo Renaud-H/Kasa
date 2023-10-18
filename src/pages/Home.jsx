@@ -1,6 +1,8 @@
 import React from 'react'
-import Banner from '../components/Banner'
 
+
+import Banner from '../components/Banner'
+import Navbar from '../layouts/Navbar'
 import Footer from '../layouts/Footer'
 
 // Import du css
@@ -10,6 +12,7 @@ import '../styles/Home.css'
 function Home(){
     return (
         <div role="main">
+            <Navbar />
             <Banner>
                 <div className="banner banner-commun">
                     <h1>Chez vous, partout et ailleurs</h1>
