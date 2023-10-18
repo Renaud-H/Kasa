@@ -3,4 +3,4 @@
 
 
 // Import du css
-import '../styles/Carousel.css'
+import '../styles/Collapse.css'
