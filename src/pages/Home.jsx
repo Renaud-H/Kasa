@@ -13,11 +13,7 @@ function Home(){
     return (
         <div role="main">
             <Navbar />
-            <Banner>
-                <div className="banner banner-commun">
-                    <h1>Chez vous, partout et ailleurs</h1>
-                </div>
-            </Banner>
+            <Banner />
             <Footer />
         </div>
     )

@@ -7,8 +7,8 @@ import '../styles/Banner.css'
 
 function Banner({children}) { 
     return (
-        <div>
-            {children}
+        <div className="banner banner-commun">
+            <h1>Chez vous, partout et ailleurs</h1>
         </div>
     )
 }

@@ -7,9 +7,9 @@ import routes from "./components/Routes"
 import './styles/index.css';
 
 
-import reportWebVitals from './reportWebVitals.js';
+
 
 // Charge les routes pour les différentes pages
 routes();
 
-reportWebVitals();
+
