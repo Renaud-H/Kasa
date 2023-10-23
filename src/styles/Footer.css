@@ -24,9 +24,3 @@
 .credits p { 
     margin-top: 10px; 
 }
-
-@media (max-width: 450px) {
-    .credits p { 
-        font-size: 12px; 
-    }
-}

@@ -1,8 +1,9 @@
 import React from 'react'
 
 
-import Banner from '../components/Banner'
 import Navbar from '../layouts/Navbar'
+import Banner from '../components/Banner'
+import Cards from '../components/Cards'
 import Footer from '../layouts/Footer'
 
 // Import du css
@@ -14,6 +15,7 @@ function Home(){
         <div role="main">
             <Navbar />
             <Banner />
+            <Cards />
             <Footer />
         </div>
     )
