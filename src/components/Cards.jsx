@@ -7,14 +7,14 @@ import '../styles/Cards.css';
 
 const Cards = () => {
     return (
-        <div className="logements">
+        <div className="container">
             {/* liste la base de données */}
             {logements.map((logement) => {
                 const { id, cover, title } = logement;
 
                 // affiche la fiche logement sur la page d'accueil
                 return (
-                    <div className="fiche-logement" key={id}>
+                    <div className="cards" key={id}>
                         <Link
                             to={{ pathname: '/Logement', search: '?_id=' + id }}
                         >
