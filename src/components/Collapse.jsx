@@ -6,7 +6,8 @@ import chevronDown from '../assets/chevron_bas.png';
 // Import du css
 import '../styles/Collapse.css';
 
-function Collapse({}) {
+// Ajout des propriétés dans Collapse
+function Collapse({/* Propriétés*/ }) {
     // UseState défaut fermé
     // Clic Toggle ouvert/fermé
 

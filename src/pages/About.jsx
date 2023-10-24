@@ -9,6 +9,7 @@ import Footer from '../layouts/Footer';
 import '../styles/About.css';
 
 function About() {
+    // Déclaration des constantes de contenu de Collapse
     return (
         <div className="about">
             <Navbar />
@@ -16,12 +17,11 @@ function About() {
                 <div className="banner2 banner-commun"></div>
             </Banner>
             <div className="about-infos">
-                <div><Collapse></Collapse>"Fiabilité"</div>
-                <div>"Respect"</div>
-                <div>"Service"</div>
-                <div>"Sécurité"</div>
+                <div><Collapse title="Titre du Collapsible" content="Contenu du Collapsible" /></div>
+                <div><Collapse title="Titre du Collapsible" content="Contenu du Collapsible" /></div>
+                <div><Collapse title="Titre du Collapsible" content="Contenu du Collapsible" /></div>
+                <div><Collapse title="Titre du Collapsible" content="Contenu du Collapsible" /></div>
             </div>
-
             <Footer />
         </div>
     );
