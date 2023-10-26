@@ -4,11 +4,13 @@ import { useSearchParams } from 'react-router-dom';
 import logements from '../data/logements.json';
 
 import Navbar from '../layouts/Navbar';
+import Carousel from '../components/Carousel';
+import Collapse from '../components/Collapse';
 import Footer from '../layouts/Footer';
 import Error404 from './Error404';
 
 // Import du css
-import '../styles/Product.css';
+import '../styles/Logement.css';
 
 function Logement() {
     // Récupère l'ID de l'URL
@@ -31,6 +33,7 @@ function Logement() {
     return (
         <div className="logement">
             <Navbar />
+            <Carousel images={logements} />
             <div className="ficheLogement">
                 <div className="div-description">
                     <h1>{logement.title}</h1>
@@ -45,6 +48,10 @@ function Logement() {
                         })}
                     </div>
                 </div>
+            </div>
+            <div className="collapseLogement">
+                <Collapse title="Description" content={logement.description} />
+                <Collapse title="Equipements" content={equipements} />
             </div>
             <Footer />
         </div>
