@@ -1,4 +1,6 @@
 // import React from 'react'
+import flecheGauche from '../assets/carrousel_l.svg';
+import flecheDroite from '../assets/carrousel_r.svg';
 
 // Import du css
 import '../styles/Carousel.css';
@@ -13,6 +15,14 @@ function Carousel({ pictures }) {
                     alt="Test"
                 />
             </div>
+            <div> 
+                    <button >
+                        <img src={flecheGauche} className='classFlecheGauche' alt='flèche gauche pour changer de photo ' />
+                    </button>
+                    <button >
+                        <img src={flecheDroite} className='classFlecheDroite' alt='flèche droite pour changer de photo ' />
+                    </button>
+                </div>
         </div>
     );
 }

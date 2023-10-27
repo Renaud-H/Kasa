@@ -14,3 +14,21 @@
     box-shadow: 0px 0px 24px #b3b1b1;
     position: absolute;
 }
+.classFlecheGauche {
+    position: absolute;
+    content: "";
+    color: var(--colorWhite);
+    inset: 0;
+    top: 40%;
+    cursor: pointer;
+    left: 0;
+}
+
+.classFlecheDroite {
+    position: absolute;
+    content: "";
+    inset: 0;
+    top: 40%;
+    cursor: pointer;
+    left: calc(100% - 50px);
+}
