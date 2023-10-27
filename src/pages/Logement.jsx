@@ -33,7 +33,7 @@ function Logement() {
     return (
         <div className="logement">
             <Navbar />
-            <Carousel images={logements} />
+            <Carousel pictures={logement.pictures} />
             <div className="ficheLogement">
                 <div className="div-description">
                     <h1>{logement.title}</h1>
