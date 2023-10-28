@@ -1,6 +1,11 @@
 import React, {useState } from 'react'
+
 import flecheGauche from '../assets/carrousel_l.svg';
 import flecheDroite from '../assets/carrousel_r.svg';
+
+
+
+
 
 // Import du css
 import '../styles/Carousel.css';
@@ -8,7 +13,7 @@ import '../styles/Carousel.css';
 function Carousel({ pictures }) { // Props envoyant un tableau avec les URLs d'images
     console.log(pictures)
 
-    // Variable compteur, défaut : 0
+    // Variable "compteur", défaut : 0
     const [index, setIndex] = useState(0)  
 
     // Nombre max d'images
@@ -17,10 +22,11 @@ function Carousel({ pictures }) { // Props envoyant un tableau avec les URLs d'i
 
     // Conditions : 
     if (index < 0) setIndex(totalPictures)  // Si < à 0, défini le nombre d'images max
-    if (index > totalPictures) setIndex(0)  // Si > au max d'images, alors set à zéro
+    if (index > totalPictures) setIndex(0)  // Si > au max d'images, alors reset à zéro
 
     return (
         <div className="carousel">
+
             <div className="div-image">
                 <img 
                 src={pictures[index]} 
@@ -29,13 +35,17 @@ function Carousel({ pictures }) { // Props envoyant un tableau avec les URLs d'i
                 alt={"photo "+index} 
                 />
             </div>
-            <div> 
+
+            {/* Si totalPictures > 0, alors ajout des flèches */}
+            {totalPictures > 0 && ( 
+            <div>
+                {/*Boutons de navigation dans la liste d'images  */}
                 <button onClick={() => setIndex(index - 1)}>{index}
 
                     <img 
                     src={flecheGauche} 
                     className='classFlecheGauche' 
-                    alt={'flèche gauche pour changer de photo '+index} />
+                    alt={'Photo précédente '+index} />
                 
                 </button>
                 <button onClick={() => setIndex(index + 1)}>{index}
@@ -43,10 +53,11 @@ function Carousel({ pictures }) { // Props envoyant un tableau avec les URLs d'i
                     <img 
                     src={flecheDroite} 
                     className='classFlecheDroite' 
-                    alt={'flèche droite pour changer de photo '+index}/>
+                    alt={'Photo suivante '+index}/>
                 
                 </button>
             </div>
+            )}
         </div>
     );
 }
