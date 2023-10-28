@@ -9,6 +9,10 @@
     display: flex;
     color: var(--colorRed);
     flex-direction: column;
-    padding-inline: 108px;
+    align-items: center;
     margin-top: 15px;
+    width: 100%;
+}
+.about-div-collapse {
+    width: 75%;
 }

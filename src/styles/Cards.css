@@ -2,23 +2,31 @@
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    grid-column-gap: 50px;
+    grid-column-gap: 100px;
     grid-row-gap: 50px;
     justify-content: center;
-    background: #F7F7F7;
+    background: #f7f7f7;
     border-radius: 25px;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 50px;
 }
 
 .container a {
-     text-decoration: none;
+    text-decoration: none;
 }
 
 /* Cards */
 .cards {
-    background-image: linear-gradient(180deg, #FF6060, #FF6060, #FF6060, #833131);
+    background-image: linear-gradient(
+        180deg,
+        #ff6060,
+        #ff6060,
+        #ff6060,
+        #833131
+    );
     border-radius: 10px;
     transition: 0.3s;
     min-width: 280px;
@@ -41,7 +49,7 @@
     line-height: 142.6%;
     margin: 0px 20px;
     align-items: center;
-    overflow: hidden;  /* empêche le titre de sortir du bloc */
+    overflow: hidden; /* empêche le titre de sortir du bloc */
     color: white;
 }
 

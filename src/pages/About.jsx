@@ -17,20 +17,26 @@ function About() {
 
     return (
         <div className="about">
+
             <Navbar />
+
             <Banner>
+
                 <div className="banner2 banner-commun"></div>
+
             </Banner>
+
             <div className="about-infos">
-                <div><Collapse title="Fiabilité" content={fiabilite} /></div>
-                <div><Collapse title="Respect" content={respect} /></div>
-                <div><Collapse title="Service" content={service} /></div>
-                <div><Collapse title="Sécurité" content={securite} /></div>
+
+                <div className='about-div-collapse'><Collapse title="Fiabilité" content={fiabilite} /></div>
+                <div className='about-div-collapse'><Collapse title="Respect" content={respect} /></div>
+                <div className='about-div-collapse'><Collapse title="Service" content={service} /></div>
+                <div className='about-div-collapse'><Collapse title="Sécurité" content={securite} /></div>
             </div>
+
             <Footer />
         </div>
     );
 }
 
 export default About;
-// Text link PC secondaire

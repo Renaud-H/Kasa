@@ -1,8 +1,10 @@
 .carousel {
     height: 415px;
-    width: 100%;
+    width: auto;
     margin-top: 30px;
     position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .carousel button {
     border: none;

@@ -4,18 +4,17 @@
     width: 100%;
     height: 100%;
 }
-
 .ficheLogement {
     display: flex;
     margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-
 .ficheLogement h4 {
     color: var(--colorRed);
     margin-top: 10px;
     font-size: 18px;
 }
-
 .ficheLogement h1 {
     color: var(--colorRed);
     margin: 0;
@@ -43,11 +42,13 @@
 }
 .collapseLogement {
     display: flex;
-    gap: 2rem;
+    justify-content: space-around;
     margin-top: 20px;
     width: 100%;
 }
-
+.logement-div-collapse {
+    width: 40%;
+}
 .div-host {
     display: flex;
     gap: 10px;
@@ -75,4 +76,12 @@
     font-size: 30px;
     width: 130px;
     gap: 10px;
+}
+.span1 {
+    color: var(--colorRed);
+    text-shadow: 0px 0px 5px rgb(180, 166, 166);
+}
+
+.span2 {
+    color: #e3e3e3;
 }
