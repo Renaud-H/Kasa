@@ -58,6 +58,14 @@ function Carousel({ pictures }) { // Props envoyant un tableau avec les URLs d'i
                 </button>
             </div>
             )}
+            {/* Compteur d'image */}
+            {totalPictures > 0 && (
+                <div className='compteur'> 
+                    <p className='compteur-p'>
+                        {index+1}/{totalPictures+1}
+                    </p>
+                </div>
+            )}
         </div>
     );
 }

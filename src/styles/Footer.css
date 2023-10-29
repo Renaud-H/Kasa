@@ -6,21 +6,44 @@
     justify-content: center;
     height: 209px;
     background: black;
-    color: var(--colorWhite);;
+    color: var(--colorWhite);
     font-size: 24px;
 }
 
-.img_footer { 
-    margin: 0 auto; 
+.img_footer {
+    margin: 0 auto;
 }
-.img_footer img { 
-    height: 60px; 
-    width: 163px; 
+.img_footer img {
+    height: 60px;
+    width: 163px;
 }
-.credits { 
-    height: 46px; 
-    text-align: center; 
+.credits {
+    height: 46px;
+    text-align: center;
 }
-.credits p { 
-    margin-top: 10px; 
+.credits p {
+    margin-top: 10px;
+}
+
+/* Media Queries Tablette Paysage */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* Media Queries Tablette Portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Media Queries Mobile Paysage */
+@media (max-width: 767px) {
+    .img_footer img {
+        height: 50px;
+        width: auto;
+    }
+    .credits p {
+        font-size: 16px;
+    }
+}
+
+/* Media Queries Mobile Portrait */
+@media (max-width: 480px) {
 }

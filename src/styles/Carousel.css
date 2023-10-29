@@ -6,6 +6,15 @@
     margin-left: 100px;
     margin-right: 100px;
 }
+.carousel p {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--colorWhite);
+    margin-top: 340px;
+    text-align: center;
+    text-shadow: 0px 0px 5px black;
+}
 .carousel button {
     border: none;
     background-color: transparent;
@@ -39,4 +48,39 @@
     top: 40%;
     cursor: pointer;
     left: calc(100% - 50px);
+}
+
+/* Media Queries Tablette Paysage */
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+/* Media Queries Tablette Portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .carousel {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* Media Queries Mobile Paysage */
+@media (max-width: 767px) {
+    .carousel {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .compteur-p {
+        visibility: hidden;
+    }
+    .classFlecheGauche { 
+        height: 30px; 
+    }
+    .classFlecheDroite {
+        height: 30px;
+        left: calc(100% - 20px)
+    }
+}
+
+/* Media Queries Mobile Portrait */
+@media (max-width: 480px) {
 }

@@ -16,3 +16,22 @@
 .about-div-collapse {
     width: 75%;
 }
+
+/* Media Queries Tablette Paysage */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* Media Queries Tablette Portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Media Queries Mobile Paysage */
+@media (max-width: 767px) {
+    .about-div-collapse {
+        width: 100%;
+    }
+}
+
+/* Media Queries Mobile Portrait */
+@media (max-width: 480px) {
+}

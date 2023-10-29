@@ -85,3 +85,53 @@
 .span2 {
     color: #e3e3e3;
 }
+
+/* Media Queries Tablette Paysage */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* Media Queries Tablette Portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .ficheLogement {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* Media Queries Mobile Paysage */
+@media (max-width: 767px) {
+    .ficheLogement {
+        margin-left: 20px;
+        margin-right: 20px;
+        display: block;
+    }
+    .logement-div-collapse {
+        width: 100%;
+    }
+    .collapseLogement {
+        display: block;
+        justify-content: center;
+    }
+    .description {
+        margin-bottom: 30px;
+    }
+    .bloc-host-rate {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .div-stars {
+        align-items: center;
+        justify-content: left;
+    }
+    .tags {
+        font-size: 10px;
+    }
+    .div-tags {
+        gap: 10px;
+    }
+}
+
+/* Media Queries Mobile Portrait */
+@media (max-width: 480px) {
+}

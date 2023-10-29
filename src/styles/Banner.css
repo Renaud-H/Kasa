@@ -30,4 +30,49 @@
     justify-content: center;
     margin: 0;
     height: 100%;
+    font-size: 44px;
+}
+
+/* Media Queries Tablette Paysage */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* Media Queries Tablette Portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .banner-commun {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* Media Queries Mobile Paysage */
+@media (max-width: 767px) {
+    .banner h1 {
+        font-size: 24px;
+    }
+    .banner {
+        margin-top: 0px;
+        height: 111px;
+        background-position: left;
+    }
+    .banner2 {
+        margin-top: 0px;
+    }
+    .banner2,
+    .banner,
+    .banner-commun {
+        border-radius: 10px;
+    }
+    .banner-commun {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* Media Queries Mobile Portrait */
+@media (max-width: 480px) {
+    .banner h1 {
+        font-size: 24px;
+        font-weight: 500;
+    }
 }

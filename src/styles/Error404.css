@@ -27,3 +27,30 @@
 .error p {
     padding-top: 50px;
 }
+
+/* Media Queries Tablette Paysage */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* Media Queries Tablette Portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Media Queries Mobile Paysage */
+@media (max-width: 767px) {
+    .error {
+        margin-top: 100px;
+    }
+    .error span {
+        font-size: 100px;
+        font-weight: 800;
+    }
+    .error h4 {
+        font-size: 24px;
+        padding: 18px;
+    }
+}
+
+/* Media Queries Mobile Portrait */
+@media (max-width: 480px) {
+}
