@@ -48,6 +48,8 @@
 }
 .logement-div-collapse {
     width: 40%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .div-host {
     display: flex;

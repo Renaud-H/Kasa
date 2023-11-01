@@ -36,7 +36,8 @@
     content: '';
     color: var(--colorWhite);
     inset: 0;
-    top: 40%;
+    top: 50%;
+    transform: translateY(-50%);
     cursor: pointer;
     left: 0;
 }
@@ -45,7 +46,8 @@
     position: absolute;
     content: '';
     inset: 0;
-    top: 40%;
+    top: 50%;
+    transform: translateY(-50%);
     cursor: pointer;
     left: calc(100% - 50px);
 }
