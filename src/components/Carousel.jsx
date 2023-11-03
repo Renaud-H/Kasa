@@ -11,7 +11,6 @@ import flecheDroite from '../assets/carrousel_r.svg';
 import '../styles/Carousel.css';
 
 function Carousel({ pictures }) { // Props envoyant un tableau avec les URLs d'images
-    console.log(pictures)
 
     // Variable "compteur", défaut : 0
     const [index, setIndex] = useState(0)  
