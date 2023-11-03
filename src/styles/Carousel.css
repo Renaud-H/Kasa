@@ -18,7 +18,6 @@
 .carousel button {
     border: none;
     background-color: transparent;
-    display: hidden;
     color: var(--colorWhite);
 }
 .classImage {

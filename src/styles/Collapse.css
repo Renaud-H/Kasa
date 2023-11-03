@@ -24,9 +24,7 @@
     align-items: center;
     cursor: pointer;
 }
-.collapse__title span {
-    padding-right: auto;
-}
+
 /* affiche le contenu */
 .visible {
     display: block;
@@ -71,7 +69,6 @@
 
 /* Media Queries Tablette Paysage */
 @media (min-width: 1024px) and (max-width: 1279px) {
-
 }
 
 /* Media Queries Tablette Portrait */

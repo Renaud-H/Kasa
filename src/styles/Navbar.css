@@ -16,7 +16,6 @@
     cursor: pointer;
 }
 .navbar nav a {
-    display: flex;
     color: var(--colorRed);
     text-decoration: none;
     font-size: 24px;
@@ -25,7 +24,6 @@
 .navbar ul {
     display: flex;
     padding: 0px;
-    padding-right: 10px;
     gap: 57px;
     list-style: none;
 }
